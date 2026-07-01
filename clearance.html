@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clearance | K&Z</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="top-strip py-2 text-center">Clearance live now | Prices drop every Friday</div>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand brand-mark" href="index.html">K&Z</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li><li class="nav-item"><a class="nav-link active" href="clearance.html">Clearance</a></li><li class="nav-item"><a class="nav-link" href="women.html">Women</a></li><li class="nav-item"><a class="nav-link" href="men.html">Men</a></li><li class="nav-item"><a class="nav-link" href="kids.html">Kids</a></li><li class="nav-item"><a class="nav-link" href="beauty.html">Beauty</a></li><li class="nav-item"><a class="nav-link" href="bags-accessories.html">Bags & Accessories</a></li>
+                </ul>
+                <div class="d-flex gap-2"><button class="nav-icon-btn"><i class="bi bi-search"></i></button><button class="nav-icon-btn"><i class="bi bi-heart"></i></button><button class="nav-icon-btn"><i class="bi bi-bag"></i><span class="cart-count">0</span></button></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-heading">
+        <div class="container">
+            <span class="eyebrow">Final prices</span>
+            <h1>Clearance finds worth catching.</h1>
+            <p>Season-end pieces, limited sizes and smart wardrobe staples with honest discounts. Use the category filters to browse faster.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-pad">
+            <div class="container">
+                <div class="filter-bar d-flex flex-wrap align-items-center justify-content-between gap-3 mb-4">
+                    <div class="d-flex flex-wrap gap-2">
+                        <button class="filter-chip active" data-filter="all">All Deals</button>
+                        <button class="filter-chip" data-filter="women">Women</button>
+                        <button class="filter-chip" data-filter="men">Men</button>
+                        <button class="filter-chip" data-filter="kids">Kids</button>
+                        <button class="filter-chip" data-filter="beauty">Beauty</button>
+                    </div>
+                    <input id="siteSearch" class="form-control w-auto" type="search" placeholder="Search sale item">
+                </div>
+                <div class="offer-grid mb-5">
+                    <div class="deal-card"><strong>60%</strong> off selected dresses</div>
+                    <div class="deal-card"><strong>45%</strong> off shirts and polos</div>
+                    <div class="deal-card"><strong>Buy 2</strong> kids basics from Rs. 799</div>
+                    <div class="deal-card"><strong>30%</strong> off beauty bundles</div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-3" data-category="women" data-product="floral midi dress"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=700&q=80" alt="Floral midi dress"><div class="product-body"><span class="badge-soft">60% off</span><h3 class="product-title mt-2">Floral Midi Dress</h3><p class="product-meta">Last sizes in rose print.</p><span class="price">Rs. 999</span><span class="old-price">Rs. 2,499</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="men" data-product="checked overshirt"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=700&q=80" alt="Checked overshirt"><div class="product-body"><span class="badge-soft">40% off</span><h3 class="product-title mt-2">Checked Overshirt</h3><p class="product-meta">Warm handle, easy layering.</p><span class="price">Rs. 1,199</span><span class="old-price">Rs. 1,999</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="kids" data-product="rainbow sweatshirt"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=700&q=80" alt="Kids sweatshirt"><div class="product-body"><span class="badge-soft">Bundle</span><h3 class="product-title mt-2">Rainbow Sweatshirt</h3><p class="product-meta">Soft fleece for playful days.</p><span class="price">Rs. 699</span><span class="old-price">Rs. 1,199</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="beauty" data-product="skin prep trio"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=700&q=80" alt="Skin prep trio"><div class="product-body"><span class="badge-soft">30% off</span><h3 class="product-title mt-2">Skin Prep Trio</h3><p class="product-meta">Cleanser, mist and moisturiser.</p><span class="price">Rs. 1,049</span><span class="old-price">Rs. 1,499</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="women" data-product="wide leg jeans"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80" alt="Wide leg jeans"><div class="product-body"><span class="badge-soft">35% off</span><h3 class="product-title mt-2">Wide Leg Jeans</h3><p class="product-meta">Vintage blue, high waist.</p><span class="price">Rs. 1,299</span><span class="old-price">Rs. 1,999</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="men" data-product="tailored chino"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1507680434567-5739c80be1ac?auto=format&fit=crop&w=700&q=80" alt="Tailored chino"><div class="product-body"><span class="badge-soft">50% off</span><h3 class="product-title mt-2">Tailored Chino</h3><p class="product-meta">Sharp enough for work.</p><span class="price">Rs. 899</span><span class="old-price">Rs. 1,799</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="kids" data-product="printed dungaree"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&w=700&q=80" alt="Printed dungaree"><div class="product-body"><span class="badge-soft">40% off</span><h3 class="product-title mt-2">Printed Dungaree</h3><p class="product-meta">Adjustable straps, cotton twill.</p><span class="price">Rs. 849</span><span class="old-price">Rs. 1,399</span><button class="quick-add">Add to Bag</button></div></article></div>
+                    <div class="col-sm-6 col-lg-3" data-category="beauty" data-product="soft matte kit"><article class="product-card"><img class="product-img" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=700&q=80" alt="Makeup kit"><div class="product-body"><span class="badge-soft">Limited</span><h3 class="product-title mt-2">Soft Matte Kit</h3><p class="product-meta">Blush, tint and eye colour.</p><span class="price">Rs. 1,249</span><span class="old-price">Rs. 1,799</span><button class="quick-add">Add to Bag</button></div></article></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner-split" style="background-image: url('https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=1800&q=80');">
+            <div class="container"><span class="eyebrow">Smart shopping</span><h2>Build a full outfit for less than the price of one statement piece.</h2><p class="col-lg-5">Pair discounted essentials with new-season accessories for a balanced wardrobe refresh.</p></div>
+        </section>
+    </main>
+
+    <footer class="footer"><div class="container"><div class="row g-4"><div class="col-md-4"><div class="brand-mark mb-2">K&Z</div><p>Fashion, beauty and accessories for everyday confidence.</p></div><div class="col-md-2"><h5>Shop</h5><a href="women.html">Women</a><a href="men.html">Men</a><a href="kids.html">Kids</a></div><div class="col-md-3"><h5>Explore</h5><a href="clearance.html">Clearance</a><a href="beauty.html">Beauty</a><a href="bags-accessories.html">Bags & Accessories</a></div><div class="col-md-3"><h5>Help</h5><p>supportK&Z@gamil.com</p></div></div><div class="border-top border-secondary mt-4 pt-3 small">Copyright <span id="year"></span> K&Z Fashion.</div></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
